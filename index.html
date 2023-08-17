@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/pc.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/btn.css">
+
+    <link rel="stylesheet" href="href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+
+    <!-- JAVASCript -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/697eb2b181.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+<!-- All the navs -->
+    <div id="grey-nav">
+        <div class="theme">
+            <div class="theme1" onclick="blueThemeOn()"></div>
+            <div class="theme2" onclick="yellowThemeOn()"></div>
+            <div class="theme3"></div>
+            <div class="theme4" onclick="defaultTheme()"></div>
+        </div>
+    </div>
+    <div id="logo-nav">
+        <div id="clg-logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div id="clg-name"><h2 id="rajkiya">राजकीय इंजीनियरिंग कॉलेज, मिर्ज़ापुर <br>Rajkiya Engineering College, Mirzapur</h2></div>
+        <div id="aktu-logo">
+            <img src="images/aktulogo.png" alt="">
+        </div>
+    </div>
+<!-- All the navs end -->
+
+
+<!-- Notice Carousel Buttons -->
+    <div id="slider">
+        <div id="col-notice">
+          <h5>NOTICE</h5>
+          <hr style="border: 1cap solid #000000;">
+              
+        </div>
+        <div id="col-carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000">
+      <img src="images/img1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="images/img2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="images/img3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </div>
+        <div id="col-buttons">
+              <button class="custom-btn btn-14">Read More<div class="dot"></div></button>
+              <button class="custom-btn btn-14">Read More<div class="dot"></div></button>
+              <button class="custom-btn btn-14">Read More<div class="dot"></div></button>
+              <button class="custom-btn btn-14">Read More<div class="dot"></div></button>
+              <button class="custom-btn btn-14">Read More<div class="dot"></div></button>
+              <button class="custom-btn btn-14">Read More<div class="dot"></div></button>
+              <button class="custom-btn btn-14">Read More<div class="dot"></div></button>
+        </div>
+    </div>
+<!-- Notice Carousel Buttons End -->
+
+
+<nav class="navbar navbar-expand-lg px-5" id="navbar">
+        <button style="padding: 3px;" onclick="myFunction(this)" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+            </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="day01.html">Week-01</a></li>
+                  <li><a class="dropdown-item" href="day02.html">Week-02</a></li>
+                  <li><a class="dropdown-item" href="week-03.html">Week-03</a></li>
+                  <li><a class="dropdown-item" href="#">Week-04</a></li>
+                  <li><a class="dropdown-item" href="#">Week-05</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Academics
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="day01.html">Week-01</a></li>
+                  <li><a class="dropdown-item" href="day02.html">Week-02</a></li>
+                  <li><a class="dropdown-item" href="week-03.html">Week-03</a></li>
+                  <li><a class="dropdown-item" href="#">Week-04</a></li>
+                  <li><a class="dropdown-item" href="#">Week-05</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Departments
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="day01.html">Week-01</a></li>
+                  <li><a class="dropdown-item" href="day02.html">Week-02</a></li>
+                  <li><a class="dropdown-item" href="week-03.html">Week-03</a></li>
+                  <li><a class="dropdown-item" href="#">Week-04</a></li>
+                  <li><a class="dropdown-item" href="#">Week-05</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Facilities
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="day01.html">Week-01</a></li>
+                  <li><a class="dropdown-item" href="day02.html">Week-02</a></li>
+                  <li><a class="dropdown-item" href="week-03.html">Week-03</a></li>
+                  <li><a class="dropdown-item" href="#">Week-04</a></li>
+                  <li><a class="dropdown-item" href="#">Week-05</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Research
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="day01.html">Week-01</a></li>
+                  <li><a class="dropdown-item" href="day02.html">Week-02</a></li>
+                  <li><a class="dropdown-item" href="week-03.html">Week-03</a></li>
+                  <li><a class="dropdown-item" href="#">Week-04</a></li>
+                  <li><a class="dropdown-item" href="#">Week-05</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Library
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="day01.html">Week-01</a></li>
+                  <li><a class="dropdown-item" href="day02.html">Week-02</a></li>
+                  <li><a class="dropdown-item" href="week-03.html">Week-03</a></li>
+                  <li><a class="dropdown-item" href="#">Week-04</a></li>
+                  <li><a class="dropdown-item" href="#">Week-05</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Admission
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="day01.html">Week-01</a></li>
+                  <li><a class="dropdown-item" href="day02.html">Week-02</a></li>
+                  <li><a class="dropdown-item" href="week-03.html">Week-03</a></li>
+                  <li><a class="dropdown-item" href="#">Week-04</a></li>
+                  <li><a class="dropdown-item" href="#">Week-05</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Examination
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="day01.html">Week-01</a></li>
+                  <li><a class="dropdown-item" href="day02.html">Week-02</a></li>
+                  <li><a class="dropdown-item" href="week-03.html">Week-03</a></li>
+                  <li><a class="dropdown-item" href="#">Week-04</a></li>
+                  <li><a class="dropdown-item" href="#">Week-05</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Career
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="day01.html">Week-01</a></li>
+                  <li><a class="dropdown-item" href="day02.html">Week-02</a></li>
+                  <li><a class="dropdown-item" href="week-03.html">Week-03</a></li>
+                  <li><a class="dropdown-item" href="#">Week-04</a></li>
+                  <li><a class="dropdown-item" href="#">Week-05</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Media
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="day01.html">Week-01</a></li>
+                  <li><a class="dropdown-item" href="day02.html">Week-02</a></li>
+                  <li><a class="dropdown-item" href="week-03.html">Week-03</a></li>
+                  <li><a class="dropdown-item" href="#">Week-04</a></li>
+                  <li><a class="dropdown-item" href="#">Week-05</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item" style="margin-right: 250px;">
+                  <a class="nav-link" href="#footer">Contact</a>
+              </li>
+          </ul>
+       </div>
+      </nav>
+      
+      <center>
+      <div class="free">
+          <marquee class="marq" behavior="alternate" onmouseover="stop()" onmouseout="start()" direction=""><a class="marq-a" href="#">Admission 2023-24</a> <a class="marq-a" href="#">Text 2</a><a class="marq-a" href="#">Admission 2023-24</a> <a class="marq-a" href="#">Text 2</a></marquee>
+      </div>
+      </center>
+      <div id="sec2">
+          <div id="profile">
+              <div class="profile-photos">
+                  <div class="img">
+                      <img src="images/shrimati.png" alt="">
+                  </div>
+              </div>
+              <div class="profile-photos">
+                  <div class="img">
+                      <img src="images/yogi.png" alt="">
+                  </div>
+              </div>
+              <div class="profile-photos">
+                  <div class="img">
+                      <img src="images/ashish.jpeg" alt="">
+                  </div>
+              </div>
+              <div class="profile-photos">
+                  <div class="img">
+                      <img src="images/geetam.png" alt="">
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div id="sec2-main">
+              <div id="about">
+                  <div class="heading">
+                      <h1>About REC MZP</h1>
+                      <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum sunt deserunt sapiente obcaecati cupiditate, ea vel excepturi. Magnam eaque, perferendis consequuntur illo ullam repudiandae ad? Est perferendis nihil repudiandae a!</p> -->
+                  </div>
+
+                  <div class="container2">
+                      <section class="abt">
+                          <div class="about-image">
+                              <img src="images/about_n.jpg" alt="">
+                          </div>
+                          <div class="about-content">
+                              <h2>Lorem ipsum dolor sit </h2>
+                              <p>Lorem ipsum dolor. Reprehenderit est iure eaque mollitia? Modi repudiandae corrupti labore iure ipsum quaerat similique exercitationem inventore architecto repellat rem culpa voluptatibus aliquam nesciunt, sunt accusamus sed porro quidem quas saepe, ex nisi minima. Cupiditate, aspernatur nulla ullam sapiente dolorem quasi optio voluptate placeat ratione quos doloribus iste possimus sequi facere, consequatur magni velit necessitatibus? Iure officia molestiae et. Quis, sit, inventore maxime sequi explicabo aut, dolorum laudantium voluptas neque deleniti cum odit repellendus omnis consectetur ipsa commodi praesentium voluptates. Explicabo vitae quos quas et aperiam error, consequatur mollitia, laudantium nostrum aut minus dicta? Voluptatibus incidunt totam cum ipsam, corrupti beatae doloribus rerum libero fugit, ducimus eligendi eaque reiciendis? Ducimus exercitationem fuga, amet et laboriosam itaque dolorum?</p>
+                              <a href="" class="read-more">Read More</a>
+                          </div>
+                      </section>
+                  </div>
+              </div>
+              <div id="imp-links">
+                <h2>Important Links</h2>
+                  <a href="#">&#187; Admission 2023</a><br>
+                  <a href="#">&#187; AKTU</a><br>
+                  <a href="#">&#187; Mandatory Disclosure</a><br>
+                  <a href="#">&#187; Swayam</a><br>
+                  <a href="#">&#187; Jan Sunwai Portal</a><br>
+                  <a href="#">&#187; AICTE EOA Letter 2022-23</a><br>
+                  <a href="#">&#187; Anti Ragging Measures</a><br>
+                  <a href="#">&#187; Anti-Ragging Online Complaint Form</a><br>
+                  <a href="#">&#187; NPTEL Courses</a><br>
+                  <a href="#">&#187; Final Proposed Elevation Of The College</a><br>
+                  <a href="#">&#187; University Regulation</a><br>
+                  <a href="#">&#187; Right To Information(RTI)</a><br>
+                  <a href="#">&#187; Unnat Bharat Abhiyan</a><br>
+                  <a href="#">&#187; Skill India</a><br>
+                  <a href="#">&#187; Media Coverage</a><br>
+                  <a href="#">&#187; Clubs</a><br>
+                  <a href="#">&#187; News</a><br>
+                  <a href="#">&#187; Gallery</a><br>
+
+              </div>
+          </div>
+      </div>
+      <div id="sec3">
+          <div class="rown">
+              <div class="product--blue">
+                  <div class="product_inner">
+                      <img src = 'images/logo.png', width ="200"><p></p>
+                      <p>Size 7</p>
+                      <p>Price £199.99</p>
+                      <button>Know More</button>
+                  </div>
+              <div class="product_overlay">
+                  <h2>Added to basket</h2>
+                  <i>{:class => 'fa fa-check'}</i>
+              </div>
+          </div>
+  <div class="product--orange">
+    <div class="product_inner">
+      <img src='images/aktulogo.png', width='200'><p>Nike Air (Men)</p>
+      <p>Lorem, ipsum.</p>
+      <p>Lorem, ipsum dolor.</p>
+      <button>Know More</button>
+    </div>
+    <div class="product_overlay">
+      <h2>Added to basket</h2>
+      <i>{:class => 'fa fa-check'}</i>
+    </div>
+  </div>
+  <div class="product--red">
+    <div class="product_inner">
+      <img src ='images/logo.png', width ='200'><p></p>
+      <p>Lorem, ipsum.</p>
+      <p>Lorem, ipsum dolor.</p>
+      <button>Know More</button>
+    </div>
+    <div class="product_overlay">
+      <h2>Know More</h2>
+      <i>{:class => 'fa fa-check'}</i>
+    </div>
+  </div>
+  <div class="product--green">
+    <div class="product_inner">
+      <img src ='images/aktulogo.png' width ="200"><p>Nike Air (Men)</p>
+      <p>Size 11</p>
+      <p>Lorem, ipsum dolor.</p>
+      <button>Know More</button>
+    </div>
+    <div class="product_overlay">
+      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nam aut, pariatur delectus repellat velit sequi nemo quis error, ad aperiam iure repudiandae impedit in reiciendis ipsum modi animi facere vel perspiciatis atque consectetur mollitia. Suscipit rerum ullam maxime laborum. Animi quidem facilis obcaecati mollitia voluptatem deserunt quibusdam nam ipsa quisquam hic! Porro ut dolores aspernatur iste velit tempora libero vel odio distinctio saepe. Praesentium officiis id, autem reprehenderit facere odit aliquid consequuntur iure tempora in deserunt dolorum, itaque quod fugit hic repellendus harum aspernatur molestias eos eligendi veniam maiores rem excepturi iusto. Labore corrupti, perferendis exercitationem blanditiis quis pariatur!</h2>
+    </div>
+  </div>
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+    <script src="js/closebtn.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/blueTheme.js"></script>
+    <script src="js/yellowTheme.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>
